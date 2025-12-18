@@ -1,5 +1,5 @@
 """
-PatchKd: Synthetic Data Generation for Proof-of-Concept Model
+ProInX: Synthetic Data Generation for Proof-of-Concept Model
 ==============================================================
 
 This script generates REALISTIC SYNTHETIC data mimicking NMR-derived local Kd 
@@ -13,7 +13,7 @@ The synthetic data is based on:
 2. Known physicochemical principles of AA-protein interactions
 3. Published literature on patch-based binding models
 
-Author: PatchKd Project
+Author: ProInX Project/Jonas
 Date: 2025
 """
 
@@ -299,3 +299,4 @@ if __name__ == "__main__":
     print("Data saved to data/synthetic_local_kd_data.csv")
     print("Summary saved to data/dataset_summary.json")
     print("=" * 60)
+
