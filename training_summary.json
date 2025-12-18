@@ -1,0 +1,249 @@
+{
+  "model_comparison": [
+    {
+      "Model": "SVR_RBF",
+      "Train_RMSE_log": 0.14125649900671422,
+      "Test_RMSE_log": 0.2471868979478216,
+      "Train_R2": 0.9421795170317848,
+      "Test_R2": 0.816960485017054,
+      "Test_MAE_mM": 39.73897360401094,
+      "Overfit_Gap": -0.10593039894110737,
+      "Overfit_Score": 0.10593039894110737
+    },
+    {
+      "Model": "StackingEnsemble",
+      "Train_RMSE_log": 0.12251694080733132,
+      "Test_RMSE_log": 0.2591037328656128,
+      "Train_R2": 0.9565032181151079,
+      "Test_R2": 0.7988864643193045,
+      "Test_MAE_mM": 31.023265537039798,
+      "Overfit_Gap": -0.13658679205828145,
+      "Overfit_Score": 0.13658679205828145
+    },
+    {
+      "Model": "ExtraTrees",
+      "Train_RMSE_log": 0.06923731268489856,
+      "Test_RMSE_log": 0.26223254434982207,
+      "Train_R2": 0.9861086246914889,
+      "Test_R2": 0.7940000385588731,
+      "Test_MAE_mM": 33.98368638546466,
+      "Overfit_Gap": -0.1929952316649235,
+      "Overfit_Score": 0.1929952316649235
+    },
+    {
+      "Model": "MLP",
+      "Train_RMSE_log": 0.21094008573529022,
+      "Test_RMSE_log": 0.2662028233194722,
+      "Train_R2": 0.8710613630244303,
+      "Test_R2": 0.7877150156987414,
+      "Test_MAE_mM": 34.222433071728865,
+      "Overfit_Gap": -0.05526273758418199,
+      "Overfit_Score": 0.05526273758418199
+    },
+    {
+      "Model": "CatBoost",
+      "Train_RMSE_log": 0.07075356457783294,
+      "Test_RMSE_log": 0.2786404090710353,
+      "Train_R2": 0.9854935385674987,
+      "Test_R2": 0.7674147552276164,
+      "Test_MAE_mM": 35.01933330750972,
+      "Overfit_Gap": -0.20788684449320238,
+      "Overfit_Score": 0.20788684449320238
+    },
+    {
+      "Model": "XGBoost_Optimized",
+      "Train_RMSE_log": 0.03080628841445829,
+      "Test_RMSE_log": 0.2963187673579418,
+      "Train_R2": 0.9972499309866558,
+      "Test_R2": 0.7369657644417306,
+      "Test_MAE_mM": 32.994506395058885,
+      "Overfit_Gap": -0.2655124789434835,
+      "Overfit_Score": 0.2655124789434835
+    },
+    {
+      "Model": "XGBoost",
+      "Train_RMSE_log": 0.02015226131986985,
+      "Test_RMSE_log": 0.30969866533709856,
+      "Train_R2": 0.998823173577303,
+      "Test_R2": 0.7126755202540773,
+      "Test_MAE_mM": 37.05727402934024,
+      "Overfit_Gap": -0.2895464040172287,
+      "Overfit_Score": 0.2895464040172287
+    },
+    {
+      "Model": "DeepLearning",
+      "Train_RMSE_log": 0.2966225743389623,
+      "Test_RMSE_log": 0.31295981070947526,
+      "Train_R2": 0.771565210317476,
+      "Test_R2": 0.7065925733633706,
+      "Test_MAE_mM": 53.65868398110239,
+      "Overfit_Gap": -0.016337236370512986,
+      "Overfit_Score": 0.016337236370512986
+    },
+    {
+      "Model": "CV_Averaged",
+      "Train_RMSE_log": 0.37396958731866475,
+      "Test_RMSE_log": 0.3301633536864692,
+      "Train_R2": 0.6293880339235276,
+      "Test_R2": 0.6734484901401026,
+      "Test_MAE_mM": 39.308877520069316,
+      "Overfit_Gap": 0.043806233632195546,
+      "Overfit_Score": 0.043806233632195546
+    },
+    {
+      "Model": "RandomForest",
+      "Train_RMSE_log": 0.11985625789557319,
+      "Test_RMSE_log": 0.3529154515645053,
+      "Train_R2": 0.9583719308850254,
+      "Test_R2": 0.6268913581571414,
+      "Test_MAE_mM": 39.916595602828735,
+      "Overfit_Gap": -0.23305919366893213,
+      "Overfit_Score": 0.23305919366893213
+    },
+    {
+      "Model": "KNN",
+      "Train_RMSE_log": 2.5470262995437506e-17,
+      "Test_RMSE_log": 0.353662444290167,
+      "Train_R2": 1.0,
+      "Test_R2": 0.6253102179548952,
+      "Test_MAE_mM": 36.5506743661492,
+      "Overfit_Gap": -0.353662444290167,
+      "Overfit_Score": 0.353662444290167
+    },
+    {
+      "Model": "GradientBoosting",
+      "Train_RMSE_log": 0.015434200229388883,
+      "Test_RMSE_log": 0.3554704612290965,
+      "Train_R2": 0.9993097075891498,
+      "Test_R2": 0.6214693967147225,
+      "Test_MAE_mM": 35.590257843794554,
+      "Overfit_Gap": -0.3400362609997076,
+      "Overfit_Score": 0.3400362609997076
+    },
+    {
+      "Model": "DeepEnsemble",
+      "Train_RMSE_log": 0.16768177962086828,
+      "Test_RMSE_log": 0.3561059618888336,
+      "Train_R2": 0.9254893046588515,
+      "Test_R2": 0.6201147329403887,
+      "Test_MAE_mM": 43.87318801375367,
+      "Overfit_Gap": -0.1884241822679653,
+      "Overfit_Score": 0.1884241822679653
+    },
+    {
+      "Model": "AdaBoost",
+      "Train_RMSE_log": 0.29253354270063875,
+      "Test_RMSE_log": 0.3781368938722048,
+      "Train_R2": 0.752020271665386,
+      "Test_R2": 0.5716566129835787,
+      "Test_MAE_mM": 56.39020609180941,
+      "Overfit_Gap": -0.08560335117156603,
+      "Overfit_Score": 0.08560335117156603
+    },
+    {
+      "Model": "LightGBM",
+      "Train_RMSE_log": 0.14032822250531046,
+      "Test_RMSE_log": 0.3833479297905045,
+      "Train_R2": 0.9429369623439134,
+      "Test_R2": 0.55976942090003,
+      "Test_MAE_mM": 49.62299237507964,
+      "Overfit_Gap": -0.24301970728519406,
+      "Overfit_Score": 0.24301970728519406
+    },
+    {
+      "Model": "BayesianRidge",
+      "Train_RMSE_log": 0.3407115251767806,
+      "Test_RMSE_log": 0.3877640374557214,
+      "Train_R2": 0.6636135545608695,
+      "Test_R2": 0.549568225703919,
+      "Test_MAE_mM": 53.308277371894526,
+      "Overfit_Gap": -0.047052512278940806,
+      "Overfit_Score": 0.047052512278940806
+    },
+    {
+      "Model": "Ridge",
+      "Train_RMSE_log": 0.3489666007781925,
+      "Test_RMSE_log": 0.39139798044917007,
+      "Train_R2": 0.6471155148167523,
+      "Test_R2": 0.5410861949001794,
+      "Test_MAE_mM": 57.82612602750697,
+      "Overfit_Gap": -0.04243137967097754,
+      "Overfit_Score": 0.04243137967097754
+    },
+    {
+      "Model": "ElasticNet",
+      "Train_RMSE_log": 0.37164512050286835,
+      "Test_RMSE_log": 0.414688048725877,
+      "Train_R2": 0.5997588766554647,
+      "Test_R2": 0.48484609060639017,
+      "Test_MAE_mM": 61.95903156638148,
+      "Overfit_Gap": -0.04304292822300865,
+      "Overfit_Score": 0.04304292822300865
+    },
+    {
+      "Model": "Lasso",
+      "Train_RMSE_log": 0.38689251593440765,
+      "Test_RMSE_log": 0.4342028642576273,
+      "Train_R2": 0.5662439991644389,
+      "Test_R2": 0.43521997344231445,
+      "Test_MAE_mM": 64.34077874095159,
+      "Overfit_Gap": -0.04731034832321962,
+      "Overfit_Score": 0.04731034832321962
+    }
+  ],
+  "best_model": "SVR_RBF",
+  "best_model_metrics": {
+    "test_rmse_log": 0.2471868979478216,
+    "test_r2": 0.816960485017054,
+    "test_mae_mM": 39.73897360401094
+  },
+  "pca_analysis": {
+    "n_components_90_variance": 6,
+    "n_components_95_variance": 6,
+    "n_components_99_variance": 7,
+    "pc1_variance_explained": 0.3087726403793119,
+    "pc2_variance_explained": 0.21597346550293864,
+    "total_features": 9
+  },
+  "regularization_methods": [
+    "L1/L2 regularization (ElasticNet feature selection)",
+    "Dropout (adaptive for deep layers)",
+    "Spectral normalization",
+    "Early stopping",
+    "Weight decay (AdamW)",
+    "Gradient clipping"
+  ],
+  "data_balancing_methods": [
+    "Kd bin stratification",
+    "MixUp augmentation",
+    "Bootstrap sampling for ensembles"
+  ],
+  "uncertainty_quantification": [
+    "Deep ensemble (5 models)",
+    "Monte Carlo dropout",
+    "Cross-validation averaging"
+  ],
+  "feature_count": 9,
+  "feature_names": [
+    "aromatic_count",
+    "sasa",
+    "charge_sasa",
+    "aromatic_sasa",
+    "sasa_sq",
+    "hydro_norm",
+    "sm_arginine",
+    "sm_glycine",
+    "sm_serine"
+  ],
+  "note": "SYNTHETIC DATA - For methodological development only",
+  "optuna_best_params": {
+    "n_estimators": 78,
+    "max_depth": 6,
+    "learning_rate": 0.07056442413762862,
+    "subsample": 0.7720140170090928,
+    "colsample_bytree": 0.7242725273532999,
+    "reg_alpha": 0.0005140516963978381,
+    "reg_lambda": 0.00026319156934692976,
+    "min_child_weight": 1
+  }
+}

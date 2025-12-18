@@ -1,0 +1,22 @@
+{
+  "total_points": 1699,
+  "proteins": [
+    "ubiquitin",
+    "lysozyme",
+    "BSA",
+    "barnase",
+    "HisJ"
+  ],
+  "small_molecules": [
+    "proline",
+    "glycine",
+    "betaine",
+    "serine",
+    "arginine"
+  ],
+  "kd_range_mM": [
+    5.0,
+    500.0
+  ],
+  "note": "SYNTHETIC DATA for methodological development only"
+}
