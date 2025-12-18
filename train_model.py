@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-PatchKd: State-of-the-Art Machine Learning Model Training
+""" ProInX: State-of-the-Art Machine Learning Model Training
 ==========================================================
 
 This script trains advanced ML models to predict local Kd values from 
@@ -16,7 +15,7 @@ Models included:
 IMPORTANT: This is a proof-of-concept model trained on SYNTHETIC data.
 Real experimental validation is required before any application.
 
-Author: PatchKd Project
+Author: ProInX Project/Jonas
 Date: 2025
 """
 
@@ -2094,3 +2093,4 @@ def plot_model_comparison(comparison_df: pd.DataFrame, save_path: str = None):
 
 if __name__ == "__main__":
     main()
+
